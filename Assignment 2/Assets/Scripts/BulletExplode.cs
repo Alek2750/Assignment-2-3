@@ -9,7 +9,7 @@ public class BulletExplode : MonoBehaviour
     public GameObject collisionExplosion;
 
     // Start is called before the first frame update
-    void Start()
+    /*void Start()
     {
         Destroy(gameObject, dieTime);
     }
@@ -27,5 +27,5 @@ public class BulletExplode : MonoBehaviour
 
     }
 
-
+    */
 }
