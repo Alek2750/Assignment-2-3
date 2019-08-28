@@ -28,7 +28,7 @@ public class CountdownTimer : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    /*void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "PickUpTime")
         {
@@ -36,5 +36,5 @@ public class CountdownTimer : MonoBehaviour
             Destroy(other.gameObject);
             currentTime += 10;
         }
-    }
+    }*/
 }
